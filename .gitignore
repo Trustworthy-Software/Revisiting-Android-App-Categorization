@@ -8,9 +8,7 @@ TMP
 
 latest.csv.gz
 0_androzoo.csv
-1_androzooRecent.csv
 config.env
 
 glove*
 *output*.*
-
