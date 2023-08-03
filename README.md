@@ -27,20 +27,13 @@ To execute the entire code, two API keys are required. They should be set in an 
 
 - 🗝️ **OPENAI_API_KEY**: This key is required to utilize the Embedding models from OpenAI through their official API ([https://platform.openai.com/overview](https://platform.openai.com/overview)).
 
-## ⚙️ Usage
+### ⚙️ Usage
 
-### Dataset Creation
+The code is provided in the form of Jupyter Notebooks to facilitate execution and collaboration. The notebooks are named and organized in sequential order to avoid possible mistakes. 
+The usual pipeline includes:
+- Extraction notebook
+- Preprocessing notebook
+- Mbedding notebook
+- Clustering notebook
 
-### RQ1
-
-### RQ2
-
-### RQ3
-
-### RQ4
-
-### RQ5
-
-### 📑 References
-
-As our research involves evaluating existing categorization approaches and attempting to use different APK representations from unrelated existing tools, we extensively utilized the code provided by the authors of various papers. Below is a list of the papers from which we reused the code.
+ By executing them in order, it is possible to generate the final outcome without caring about the intermediate steps and saving intermediate files.
