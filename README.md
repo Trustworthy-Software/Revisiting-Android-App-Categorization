@@ -33,7 +33,7 @@ The code is provided in the form of Jupyter Notebooks to facilitate execution an
 The usual pipeline includes:
 - Extraction notebook
 - Preprocessing notebook
-- Mbedding notebook
+- EMbedding notebook
 - Clustering notebook
 
  By executing them in order, it is possible to generate the final outcome without caring about the intermediate steps and saving intermediate files.
