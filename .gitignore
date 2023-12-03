@@ -10,5 +10,8 @@ latest.csv.gz
 0_androzoo.csv
 config.env
 
+.dockerignore
+Dockerfile
+
 glove*
 *output*.*
