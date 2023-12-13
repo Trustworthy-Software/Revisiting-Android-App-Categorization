@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  my_service:
+    image: androcatset_image
+    volumes:
+      - ./.env:./app/.env
+
+volumes:
+  myenv:
+    external: true

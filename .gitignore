@@ -8,10 +8,11 @@ TMP
 
 latest.csv.gz
 0_androzoo.csv
-config.env
+*.env
 
 .dockerignore
 Dockerfile
+Docker_Instructions.txt
 
 glove*
 *output*.*
