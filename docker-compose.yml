@@ -3,8 +3,11 @@ version: '3.8'
 services:
   my_service:
     image: androcatset_image
+    ports:
+      - "8888:8888"
     volumes:
-      - ./.env:./app/.env
+      - ./.env:/app/.env
+
 
 volumes:
   myenv:
