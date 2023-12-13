@@ -6,3 +6,5 @@ jupyter
 ipykernel==6.6.0
 tqdm
 nltk
+pytesseract
+python-dotenv
