@@ -17,19 +17,12 @@ import lxml
 import drebinCommonModules      as CM
 
 
-################## API KEYS ########################
-from   dotenv import load_dotenv
-import os,sys
-# Load API KEYS from the .env file in the current directory
-CONFIG_PATH = "../../../../config.env"
-if not os.path.exists(CONFIG_PATH):
-    print(f"⚠️ Error: File not found at path '{CONFIG_PATH}'.\n- Make sure the config.env file exists.\n- Ensure the CONFIG_PATH is correctly set.")
-    sys.exit(1)
-else:
-    load_dotenv(CONFIG_PATH)
+### API KEYS ###
+from dotenv import load_dotenv
+load_dotenv()
 ANDROZOO_API_KEY = os.getenv('ANDROZOO_API_KEY')
 OPENAI_API_KEY   = os.getenv('OPENAI_API_KEY')
-#######################################################
+
 
 # Get info from Manifest File
 def GetFromXML(ApkDirectoryPath, ApkFile):
