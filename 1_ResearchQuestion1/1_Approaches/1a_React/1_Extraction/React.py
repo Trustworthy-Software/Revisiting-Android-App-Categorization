@@ -17,9 +17,6 @@ OPENAI_API_KEY   = os.getenv('OPENAI_API_KEY')
 
 # To download APK from AndroZoo
 def downloadAPK(APK_PATH, sha256):
-    print(ANDROZOO_API_KEY)
-    current_directory = os.getcwd()
-    print("Current Directory:", current_directory)
     # Download APK from Androzoo
     apkUrl = "https://androzoo.uni.lu/api/download?apikey={}&sha256={}".format(ANDROZOO_API_KEY, sha256)
     req = requests.get(apkUrl, allow_redirects=True)

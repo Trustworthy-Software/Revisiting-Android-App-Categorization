@@ -1,6 +1,5 @@
 __pycache__
 
-APKS
 inputMallet
 outputMallet
 ScrapingOutput
@@ -9,10 +8,6 @@ TMP
 latest.csv.gz
 0_androzoo.csv
 *.env
-
-.dockerignore
-Dockerfile
-Docker_Instructions.txt
 
 glove*
 *output*.*
