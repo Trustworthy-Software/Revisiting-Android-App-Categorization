@@ -1,7 +1,16 @@
 <div align="center">
+
   <h1 align="center">Revisiting Android App Categorization</h1>
+
+  <p align="center"> Avilaible on Zenodo:
+  </p>
+
+  [![DOI](https://zenodo.org/badge/669074668.svg)](https://zenodo.org/doi/10.5281/zenodo.10378629)
+
   <p align="center">
-    <a href="https://doi.org/10.48550/arXiv.2310.07290"><strong>Paper Available [HERE]</strong></a>
+    Paper Available:
+    <br />
+    <a href="https://doi.org/10.48550/arXiv.2310.07290"> <strong>[HERE]</strong></a>
     <br />
     <br />
     <a href="https://github.com/MarcoAlecci">Marco Alecci</a>
