@@ -169,7 +169,7 @@ def getAll(sha256, APK_PATH):
     downloadAPK(APK_PATH, sha256)
 
     # Decompiling APK File
-    cmd = 'apktool d {}{}.apk -o {}'.format(APK_PATH, sha256, APK_PATH + sha256 + "/")
+    cmd = 'apktool d {}{}.apk -q -o {}'.format(APK_PATH, sha256, APK_PATH + sha256 + "/")
 
     # Check if the decompiled directory exists
     if not os.path.exists(APK_PATH + sha256 + "/"):
