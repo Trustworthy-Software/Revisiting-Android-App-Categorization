@@ -24,3 +24,4 @@ logger
 google_play_scraper
 tensorflow
 wordnet
+pyenchant
