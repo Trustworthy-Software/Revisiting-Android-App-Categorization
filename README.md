@@ -52,7 +52,7 @@ Executable, respectively. The first part, denoted as
 the first ground-truth dataset for evaluating Android app categorization
 methodologies, encompassing 5,000 apps categorized into 100 different
 classes, such as Calculator, Translator, and others. The artifact's
-second component encompasses all the code utilized in conducting our
+second component contains all the code utilized in conducting our
 experiments. This includes our newly developed description-based app
 categorization approach named **G-CatA**.
 
@@ -61,14 +61,7 @@ categorization approach named **G-CatA**.
 </p>
 
 We claim the *Available* and *Reusable* badges. Regarding the *Available* badge, we ensured the availability of our artifact by storing the software source
-code on Zenodo, thus guaranteeing its long-term accessibility. Regarding
-the *Reusable* badge, we've included detailed instructions on how to use
-our code to replicate the experiments and analyses conducted during the
-paper's composition. Additionally, we provide a `DockerFile`, ensuring a
-streamlined and consistent environment for reproducing our experiments.
-This accessibility ensures that our work is readily available for future
-researchers seeking to replicate or expand upon our experiments.
-
+code on Zenodo, thus guaranteeing its long-term accessibility. Regarding the *Reusable* badge, we have implemented extensive measures to enhance the reusability and adaptability of our code. The repository has been meticulously organized, complemented by comprehensive documentation and instructions explaining how to replicate the experiments and analyses conducted during the paper's composition. Additionally, we provide a `DockerFile`, ensuring a streamlined and consistent environment for reproducing our experiments. This accessibility ensures that our work is readily available for future researchers seeking to replicate or expand upon our experiments.
 # 🔗 Provenance
 
 The following links are provided:
@@ -97,7 +90,7 @@ provide guidance in the repository:
 
 **AndroCatSet** is released as a CSV file, which helps in
 saving memory storage since the CSV file weighs only 10.6 MB. All
-experiments were conducted 'on the fly,' with the APK files downloaded
+experiments were conducted 'on the fly', with the APK files downloaded
 from **AndroZoo** whenever necessary. The
 methodology employed to construct **AndroCatSet** is
 extensively described in our paper. It comprises five columns: sha256
