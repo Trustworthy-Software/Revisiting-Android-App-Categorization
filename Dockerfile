@@ -19,7 +19,7 @@ RUN apt-get -y install enchant-2
 
 # Install nltk
 RUN pip install nltk
-RUN python -m nltk.downloader punkt wordnet stopwords averaged_perceptron_tagger
+RUN python -m nltk.downloader punkt wordnet stopwords averaged_perceptron_tagger words
 
 # Download and install Mallet
 RUN wget http://mallet.cs.umass.edu/dist/mallet-2.0.8.tar.gz && \
