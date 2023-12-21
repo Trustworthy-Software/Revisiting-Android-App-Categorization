@@ -7,13 +7,13 @@ import os, requests, subprocess
 import pytesseract, fnmatch
 import re, spacy
 import shutil
+import logging
 
 ### API KEYS ###
 from dotenv import load_dotenv
 load_dotenv()
 ANDROZOO_API_KEY = os.getenv('ANDROZOO_API_KEY')
 OPENAI_API_KEY   = os.getenv('OPENAI_API_KEY')
-
 
 # To download APK from AndroZoo
 def downloadAPK(APK_PATH, sha256):
